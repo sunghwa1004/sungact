@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>성화의 성공적인 취업을 위해</title>
+    <style>
+        #notepad {
+            width: 100%;
+            height: 90vh;
+        }
+        #count {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST">
+        <textarea id="notepad" name="memo" rows="10" cols="50">{{ memo }}</textarea>
+        <p id="count">{{ len(memo) }} / 10000</p>
+        <button type="submit">Save</button>
+    </form>
+    <p id="message"></p>
+</body>
+</html>
