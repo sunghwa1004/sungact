@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # GitHub 저장소 정보
-github_token = os.environ.get('GITHUB_TOKEN')
+github_token = os.environ.get('MY_GITHUB_TOKEN')
 repo_name = 'sunghwa1004/save'
 file_name = 'memo.txt'
 
